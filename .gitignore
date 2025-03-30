@@ -1,0 +1,25 @@
+# Ignore build and CMake files
+/build/
+cmake-build-debug/
+cmake-build-release/
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore system files
+.DS_Store       # macOS system files
+Thumbs.db       # Windows system files
+
+# Ignore executable files
+MyDatabase      # Replace this with the name of your executable if different
+*.exe
+*.out
+
+# Ignore temporary and log files
+*.log
+*.tmp
+*.swp
+
+# Ignore dependency manager files (if using any)
+*.d
