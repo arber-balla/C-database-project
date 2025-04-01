@@ -1,5 +1,7 @@
 #include "table.h"
 
+#include <stdio.h>
+
 PrepareResult prepareStatement(InputBuffer* input_buffer, Statement* statement) {
     // If "insert" statement
     // Note that we use strncmp for “insert” since the “insert” keyword will be followed by data.

@@ -1,4 +1,5 @@
 #include <stdbool.h>
+#include <stdio.h>
 
 #include "repl/shell.h"
 #include "meta/meta.h"
