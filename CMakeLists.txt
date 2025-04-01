@@ -16,6 +16,7 @@ set(SOURCES
     ${SRC_DIR}/storage/pager.c
     ${SRC_DIR}/table/table.c
     ${SRC_DIR}/util/utils.c
+    ${SRC_DIR}/meta/meta.c
 )
 
 # Define executable
